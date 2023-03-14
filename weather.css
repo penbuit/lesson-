@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    
+    width: 600px;
+    height: 435px;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+}
+
+/*.header{
+    width:590px ;
+    height: 30px;
+    font-size: 18px;
+    color:#696969 ;
+}*/
+.input{
+    width:595px ;
+    height: 45px;
+    font-size: 18px;
+    color:#696969 ;
+    border-bottom: 1px solid black;
+}    
+.informashion{
+    display: flex;    
+}
+.left-block{
+    display: flex;
+    width: 300px;
+    height: 385px;
+    border-right:1px solid black ;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.celtius{
+    width: 100%;
+    font-size: 70px;
+    line-height: 52px;
+    margin-top: 20px;
+    margin-left: 23px;
+    
+}
+.cloud{
+    width: 78px;
+    height: 59px;
+    margin-left: 112px;
+    margin-top: 40px;
+    
+    
+}
+.city{
+    width: 76px;
+    height: 28px;
+    margin-left:12px ;
+    font-size: 24px;
+    margin-top: 98px;
+    
+  
+}
+.heart{
+    width: 22px;
+    height: 23px;
+    margin-left: 250px;
+    
+}
+.selection-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height:45px ;
+    list-style-type: none;
+    border-top:1px solid black ;
+    text-align: center;
+    
+    
+
+}
+.now{    
+    width: 100px; 
+}
+.details{   
+    width: 100px; 
+}
+.forecast{    
+    width: 100px; 
+}
+.right-block{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.Added-Locations{    
+    width: 100%;
+    height: 68px;
+    border-bottom:1px solid black ;
+     
+}
+.lotacion{
+    font-size: 24px;
+    margin-top:33px ;
+    margin-left: 18px;    
+}
+.list{
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 18px;
+    margin-top: 35px;
+    
+}
